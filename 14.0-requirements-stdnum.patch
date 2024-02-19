@@ -1,0 +1,25 @@
+From b044f6bcef64ce68a921e9a56e08f270ca0b6245 Mon Sep 17 00:00:00 2001
+From: Achraf Bannour <bannour.achraf@gmail.com>
+Date: Mon, 22 Jan 2024 13:57:06 +0100
+Subject: [PATCH] Update requirements.txt
+
+---
+ requirements.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements.txt b/requirements.txt
+index 2a2460e53de0..7ae55476ac9f 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -52,7 +52,7 @@ requests==2.21.0; python_version <= '3.9'
+ requests==2.25.1; python_version > '3.9'  # (Jammy) versions < 2.25 aren't compatible w/ urllib3 1.26. Bullseye = 2.25.1. min version = 2.22.0 (Focal)
+ urllib3==1.26.5; python_version > '3.9'  # (Jammy) indirect / min version = 1.25.8 (Focal with security backports)
+ zeep==3.2.0
+-python-stdnum==1.8
++python-stdnum>=1.8
+ vobject==0.9.6.1
+ Werkzeug==0.16.1 ; python_version <= '3.9'
+ Werkzeug==2.0.2 ; python_version > '3.9'  # (Jammy)
+-- 
+2.43.2
+
